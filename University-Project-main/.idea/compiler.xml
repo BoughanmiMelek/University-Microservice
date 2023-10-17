@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Club-server" />
+        <module name="Group" />
+        <module name="Etudiant-service" />
+        <module name="User" />
+        <module name="Enseignant-service" />
+        <module name="Bibliotheque" />
+        <module name="eureka-server" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Bibliotheque" options="-parameters" />
+      <module name="Club-server" options="-parameters" />
+      <module name="Enseignant-service" options="-parameters" />
+      <module name="Etudiant-service" options="-parameters" />
+      <module name="Group" options="-parameters" />
+      <module name="User" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+    </option>
+  </component>
+</project>
