@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/University-Project-main/Bibliotheque/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/University-Project-main/Club-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/University-Project-main/Enseignant-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/University-Project-main/Etudiant-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/University-Project-main/Group/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/University-Project-main/User/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/University-Project-main/eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/University-Project-main/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/University-Project-main/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
