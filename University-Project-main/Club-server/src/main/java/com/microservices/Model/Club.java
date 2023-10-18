@@ -32,6 +32,9 @@ public class Club {
     @OneToMany(cascade = CascadeType.ALL)
     @JsonIgnore
     private Set<Evenement> evenements;
+    @OneToMany(cascade = CascadeType.ALL)
+    @JsonIgnore
+    private Set<Formulaire> formulaires;
 
 
 

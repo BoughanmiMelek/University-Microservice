@@ -5,22 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7641eead-5902-4a4f-be5b-751621466dd2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/University-Project-main/Club-server/src/main/java/com/microservices/Model/Club.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/University-Project-main/Club-server/src/main/java/com/microservices/Model/Evenement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/University-Project-main/Club-server/src/main/java/com/microservices/Model/stripe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/University-Project-main/Club-server/src/main/java/com/microservices/Model/stripeCharge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/University-Project-main/Club-server/src/main/java/com/microservices/Repositories/clubRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/University-Project-main/Club-server/src/main/java/com/microservices/Repositories/evenmRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/University-Project-main/Club-server/src/main/java/com/microservices/Services/clubService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/University-Project-main/Club-server/src/main/java/com/microservices/Services/evenmService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/University-Project-main/Club-server/src/main/java/com/microservices/Services/stripeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/University-Project-main/Club-server/src/main/java/com/microservices/Model/Formulaire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/University-Project-main/Club-server/src/main/java/com/microservices/Repositories/formulaireRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/University-Project-main/Club-server/src/main/java/com/microservices/Services/formulaireService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/University-Project-main/Club-server/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/University-Project-main/Club-server/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/University-Project-main/Club-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/University-Project-main/Club-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/University-Project-main/Club-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/University-Project-main/Club-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/University-Project-main/Club-server/src/main/java/com/microservices/Model/Club.java" beforeDir="false" afterPath="$PROJECT_DIR$/University-Project-main/Club-server/src/main/java/com/microservices/Model/Club.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,23 +46,34 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/user/Documents/GitHub/University-Microservice/University-Project-main/Club-server/src/main/java/com/microservices/Services",
+    "last_opened_file_path": "C:/Users/user/Documents/GitHub/University-Microservice/University-Project-main/Club-server/src/main/java/com/microservices/Controllers",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "Docker",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Documents\GitHub\University-Microservice\University-Project-main\Club-server\src\main\java\com\microservices\Controllers" />
       <recent name="C:\Users\user\Documents\GitHub\University-Microservice\University-Project-main\Club-server\src\main\java\com\microservices\Services" />
       <recent name="C:\Users\user\Documents\GitHub\University-Microservice\University-Project-main\Club-server\src\main\java\com\microservices\Model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Documents\GitHub\University-Microservice\University-Project-main\Club-server" />
+      <recent name="C:\Users\user\Documents\GitHub\University-Microservice\University-Project-main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.microservices.Services" />
@@ -115,6 +130,69 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Club-server/Dockerfile (1)" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker2">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="University-Project-main/Club-server/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="Club-server/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildOnly" value="true" />
+          <option name="sourceFilePath" value="University-Project-main/Club-server/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="University-Project-main: Compose Deployment (1)" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker2">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="University-Project-main/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="University-Project-main: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="University-Project-main/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="University-Project-main.discovery: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="discovery" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="University-Project-main/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Club-server/Dockerfile" />
+        <item itemvalue="Docker.Club-server/Dockerfile (1)" />
+        <item itemvalue="Docker.University-Project-main: Compose Deployment (1)" />
+        <item itemvalue="Docker.University-Project-main: Compose Deployment" />
+        <item itemvalue="Docker.University-Project-main.discovery: Compose Deployment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -124,11 +202,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697574912050</updated>
-      <workItem from="1697574915279" duration="744000" />
+      <workItem from="1697574915279" duration="14977000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
